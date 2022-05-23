@@ -131,15 +131,6 @@ li {
     object-fit: contain;
 }
 
-.slider__heading {
-    font-family: 'Oswald', sans-serif;
-    font-size: 30px;
-    line-height: 44px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    margin-left: 40px;
-}
-
 .slider__buttons {
     display: flex;
     align-items: center;
@@ -183,6 +174,7 @@ li {
     line-height: 27px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    padding-top: 15px;
 }
 
 .slider-text {
@@ -279,4 +271,93 @@ li {
     text-transform: uppercase;
     color: white;
     padding-left: 21px;
+}
+
+.rent__header {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.rent__main {
+    display: flex;
+    align-items: center;
+}
+
+.rent__text-main {
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 95px;
+}
+
+.rent__slider {
+    width: 665px;
+    border: 3px solid #005BC1;
+    margin-top: 40px;
+}
+
+.rent__header-heading {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.rent__buttons {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.rent__header-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.rent__image {
+    background-image: url(./img/cvadrocopter.png);
+    width: 255px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.rent__main-info {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Oswald',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.rent__list {
+    margin-top: 30px;
+}
+
+.rent__item {
+    font-family: 'Open Sans',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    list-style: square;
+    margin-left: 20px;
+}
+
+.rent__item:not(:last-child) {
+    margin-bottom: 10px;
 }
